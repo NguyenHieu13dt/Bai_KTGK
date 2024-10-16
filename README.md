@@ -8,6 +8,7 @@
 
 Dưới đây là ảnh chụp màn hình kết quả chạy chương trình:
 
-![image](https://github.com/user-attachments/assets/4aef680d-d8de-45d4-b084-9fe78e9052c0)
-![image](https://github.com/user-attachments/assets/4f771792-6ee0-4e8e-8ea5-51e78f56407d)
-![image](https://github.com/user-attachments/assets/9667969f-a01e-4910-b5f5-9544779891f5)
+![image](https://github.com/user-attachments/assets/f4f0a7f0-a0ec-4c9c-a06d-f693b2da3ad6)
+![image](https://github.com/user-attachments/assets/72f29433-3379-446c-9c9a-5992f923c58d)
+![image](https://github.com/user-attachments/assets/3091104c-dbb8-4d1a-bd98-1050a8a2e4bf)
+
