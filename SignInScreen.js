@@ -9,16 +9,6 @@ const SignInScreen = () => {
   const [callingCode, setCallingCode] = useState('84'); 
   const [phoneNumber, setPhoneNumber] = useState(''); 
 
-  // Hàm kiểm tra tính hợp lệ của số điện thoại
-  const handleSignIn = () => {
-    const fullPhoneNumber = `+${callingCode}${phoneNumber}`;
-    if (isValidPhoneNumber(fullPhoneNumber)) {
-      alert('Số điện thoại hợp lệ!');
-    } else {
-      alert('Số điện thoại không hợp lệ. Vui lòng kiểm tra lại!');
-    }
-  };
-
   return (
     <View style={styles.container}>
       {/* Hình ảnh phía trên */}
@@ -53,11 +43,6 @@ const SignInScreen = () => {
           onChangeText={setPhoneNumber}
         />
       </View>
-
-      {/* Nút đăng nhập */}
-      <TouchableOpacity style={styles.signInButton} onPress={handleSignIn}>
-        <Text style={styles.signInButtonText}>Sign In</Text>
-      </TouchableOpacity>
 
       {/* Nút đăng nhập bằng Google và Facebook */}
       <Text style={styles.socialText}>Or connect with social media</Text>
@@ -109,20 +94,6 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     fontSize: 18,
     flex: 1,
-  },
-  signInButton: {
-    backgroundColor: '#3498db',
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    borderRadius: 10,
-    marginBottom: 20,
-    width: '80%',
-    alignItems: 'center',
-  },
-  signInButtonText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: 'bold',
   },
   socialText: {
     marginBottom: 10,
